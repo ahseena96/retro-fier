@@ -7,7 +7,7 @@ Retrofier, developed in Prolog, is a logic programming tool we developed to appl
 1. We used SWISH (A web based SWI-Prolog environment for implementation of Prolog) - https://swish.swi-prolog.org/ for developing and executing our program
 2. Download the 'retrofier.lp' file
 3. Load the downloaded file on to SWISH platform (you can also use locally installed and set up swi/prolog tools)
-4. Execute `retroFier(<input>)` in the SWISH run environment (Please see below for input format).
+4. Execute `retroFier(<input>).` in the SWISH run environment (Please see below for input format).
 
 ## Input format
 
