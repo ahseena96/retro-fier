@@ -3,7 +3,9 @@
 Retrofier is a logic programming tool used for common-sense reasoning of the Retrosynthesis process.
 
 Download the 'retrofier.lp' file.
+
 Go to SWISH (A web based SWI-Prolog environment for implementation of Prolog) - https://swish.swi-prolog.org/
+
 Open a new program and copy the 'retrofier.lp' code.
 
 RUN queries on SWISH to check for the retrosynthesis reactions.
