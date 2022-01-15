@@ -12,7 +12,7 @@ RUN queries on SWISH to check for the retrosynthesis reactions.
 
 Input:
 
-/* Set of reactions in the retrosysthesis process of a drug */
+/* Set of reactions in the retrosysthesis process of a drug 
 
 Example :
 
