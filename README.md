@@ -16,17 +16,21 @@ We used Prolog's dictionary format to represent the molecules: point{x: a, y : b
 Let dict(X) denote this representation for molecule X.
 Consider the following reaction steps to reach compound A
 
-A = B + C
+A = B + C 
+
 B = X + Y
+
 X = P + Q
 
 The input in this case would be [[dict(A), dict(B), dict(C)], [dict(B), dict(X), dict(Y)], [dict(X), dict(Y), dict(Z)]].
 
 Drug - Abacavir
+
 C14H18N6O(Abacavir) = C11H12N5O + C3H6N
   
 
 Example:
+
 Run this command to check if the above retrosysnthesis reaction -
 
-? retroFier([[point{c:14,h:18,n:6,o:1,l:0,f:0}, point{c:11,h:12,l:0,n:5,o:1,f:0}, point{c:3,h:6,n:1,o:0,l:0,f:0}]]).
+?- retroFier([[point{c:14,h:18,n:6,o:1,l:0,f:0}, point{c:11,h:12,l:0,n:5,o:1,f:0}, point{c:3,h:6,n:1,o:0,l:0,f:0}]]).
