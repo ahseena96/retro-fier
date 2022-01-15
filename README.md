@@ -14,7 +14,8 @@ Retrofier, developed in Prolog, is a logic programming tool we developed to appl
 The inputs to this program are reactions identified as a result of Retrosynthetic analysis in the form of nested lists.
 We used Prolog's dictionary format to represent the molecules: point{x: a, y : b, z : c, ...} where x,y,z are the atoms and a,b,c are corresponding number of atoms respectively.
 Let dict(X) denote this representation for molecule X.
-Consider the following reaction steps to reach compound A
+
+Consider the following reaction steps to reach compound A.
 
 A = B + C 
 
@@ -24,9 +25,9 @@ X = P + Q
 
 The input in this case would be [[dict(A), dict(B), dict(C)], [dict(B), dict(X), dict(Y)], [dict(X), dict(Y), dict(Z)]].
 
-Drug - Abacavir
+<!-- Drug - Abacavir -->
 
-C14H18N6O(Abacavir) = C11H12N5O + C3H6N
+<!-- C14H18N6O(Abacavir) = C11H12N5O + C3H6N -->
   
 
 Example:
